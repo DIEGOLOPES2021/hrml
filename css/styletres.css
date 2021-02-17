@@ -1,0 +1,542 @@
+*{
+    margin: 0px;
+    pedding:0px;
+    box-sizing: border-box;
+}
+/*Classe para padronização do tamanho do conteudo de cada seção*/
+.conteudo{
+    width: 1200px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+
+}
+
+h1{
+    width: 98%;
+    height: 50px;
+    font-family: verdana;
+    font-size: 1em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    padding-top: 13px;
+    margin-left: 20px;
+
+    color: #ffffff;
+    background-color: black
+    
+}
+p{
+     width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica */
+    height: auto;
+    /*ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+
+    font-family: verdana;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: black;
+}
+/*Cabeçario */
+#containerCabecario{
+     width:inherit;
+    height: 170px;
+    background-color: black;
+}
+/*Imagem da Empresa */
+/***********************/
+#logo{
+    width: 200px;
+    height: 170px;
+    background-color: brown;
+    float:left;
+    background-image: url(../imagen/empresa.jpg);
+    background-size: 185px;
+    
+}
+#titulo{
+    
+    width: 940px;
+    height: 170px;
+    background-color:burlywood; 
+    float:left;
+    background-image: url(../imagen/imagem2.jfif);
+    background-size: 95%;
+}
+.redesSociais{
+    width: inherit;
+    height: 56px;
+    background-color: black;
+    
+}
+.redesSociaiss{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+}
+.redesSociaisss{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+}
+#imagemInstagram{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/instagram.webp);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#imagemFace{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/face.webp);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#imagemZap{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/zap.png);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/***************************/
+#containerMenu{
+    width: 100%;
+    height: 63px;
+    background-color: #2b5394;
+}
+
+#menu{
+    width: inherit;
+    height: 63px;
+    background-color:#2b5394;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#listMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menuItem{
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: inherit;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.menuItem:hover{
+    background-color:chartreuse;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+#containerConteudo{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagen/fundoConteudo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+.conteudoDois{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:blueviolet;
+}
+#containerOQueEHmlECss{
+    float: left;
+    width: 930px;
+    height: inherit;
+    background-color: fuchsia;
+}
+#imgemContainer{
+    float: left;
+    width: 270px;
+    height: inherit;
+    background-color: cornflowerblue;
+}
+#textoUm{
+    width: inherit;
+    height: 50%;
+    background-color: #6f7275;
+}
+#textoDois{
+    width: inherit;
+    height: 50%;
+    background-color: #6f7275;
+
+}
+.h{
+    width: inherit;
+    height: 50px;
+    background-color: black
+}
+#imagemDoContainercontainerOQueEHmlECss{
+    width: inherit;
+    height: 50%;
+    background-color:#f0a860;
+    background-image: url(../imagen/sistemas-operacionais.png);
+    background-size: 100%;
+}
+#imagemDoContainercontainerOQueEHmlECssDois{
+    width: inherit;
+    height: 50%;
+    background-color: #bcd4eb;
+    background-image: url(../imagen/sop1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#containerTexto{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.primeiraParte{
+    width: 100%;
+    height: 300px;
+    background-color: #242323;
+}
+.partes{
+    width: 30%;
+    height: inherit;
+    background-color: #242323;
+    float: left;
+}
+.partess{
+    width: 40%;
+    height: 280px;
+    background-color: #242323;
+    float: left;
+     margin-top: 15px;
+}
+.partesss{
+    width: 30%;
+    height: inherit;
+    background-color: #242323;
+    float: left;
+}
+.oqeUmaTabela{
+    width: 340px;
+    height: 50px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 15px;
+     
+}
+.oqeUmaTabelaa{
+    width: 340px;
+    height: 204px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+   
+}
+.oqeUmaTabelaaa{
+    width: 340px;
+    height: 271px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-image: url(../imagen/imgSop.jpg);
+    background-size: 338px;
+     
+}
+.ooqeUumaTabelaaa{
+    width: 340px;
+    height: 271px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-image: url(../imagen/particionamentoDeDisco.jpg);
+    background-size: 340px 270px;
+     
+}
+.ooooqeUmaTabelaaa{
+    width: 340px;
+    height: 271px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-image: url(../imagen/codigoFechado.jpg);
+    background-size: 340px 270px;
+     
+}
+.oooqeUmaTabelaaa{
+    width: 340px;
+    height: 271px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-image: url(../imagen/codigoAberto.jpeg);
+    background-size: 330px 271px;;
+     
+}
+.pprimeiraParte{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.ppartes{
+    width: 30%;
+    height: inherit;
+    background-color: black;
+    float: left;
+}
+.ppartess{
+    width: 40%;
+    height: 280px;
+    background-color: black;
+    float: left;
+     margin-top: 15px;
+}
+.ppartesss{
+    width: 30%;
+    height: inherit;
+    background-color: black;
+    float: left;
+}
+.ooqeUmaTabela{
+    width: 340px;
+    height: 50px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 15px;
+     
+}
+.ooqeUmaTabelaa{
+    width: 340px;
+    height: 204px;
+    background-color: #6f7275;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+   
+}
+.ooqeUmaTabelaaa{
+    width: 340px;
+    height: 271px;
+    background-color:#6f7275 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-image: url(../imagen/monoEmulti.jpg);
+    background-size: 338px;
+     
+}
+#containerVideo{
+    width: 100%;
+    height: 300px;
+    background-color: #242323;
+}
+#containerVideoDois{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+#containerVideoTres{
+    width: 100%;
+    height: 300px;
+    background-color: #242323;
+}
+#containerVideoQuatro{
+     width: 100%;
+    height: 300px;
+    background-color: black;
+}
+#containerVideoCinco{
+     width: 100%;
+    height: 300px;
+    background-color: #242323;
+}
+#rodape{
+    width:inherit;
+    height: 80px;
+    background-color: black;
+}
+
+.classH1{
+    width: 340px;
+    height: 50px;
+    font-family: verdana;
+    font-size: 0.8em;
+    color: #000000;
+    background-color: #6f7275;
+    margin-left: 0px;
+    padding-top: 3px;
+    margin-left: 1px;
+}
+.classP{
+   width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica */
+    height: auto;
+    /*ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+
+    font-family: verdana;
+    font-size: 1.0em;
+    line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px; 
+}
+.classPP{
+   width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica */
+    height: auto;
+    /*ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+
+    font-family: verdana;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    text-align: center;
+}
+#containerCompra{
+    width: 100%;
+    height: 300px;
+    background-image: url(../imagen/fundo3.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+.classH11{
+    width: 1200px;
+    height: 50px;
+    font-family: verdana;
+    font-size: 1.4em;
+    color: #000000;
+    background-color: #6f7275;
+    margin-left: 0px;
+    padding-top: 5px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+#compra{
+    width: 1200px;
+    height: 40%;
+    background-color: #5c5d5e;
+    
+}
+#compraa{
+    width: 1200px;
+    height: 44%;
+    background-color: black;
+    padding-top: 20px;
+}
+#botao{
+    height: 80px;
+    width: 250px;
+    background-color: #186904;
+    margin-left: auto;
+    margin-right: auto;
+}
+#textBotao{
+    width: 250px;
+    height: inherit;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.9em;
+    padding-top: 20px    
+}
+#rodape{
+    width: 100%;
+    height: 100px;
+}
+#listMenuu{
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: black;
+}
+.listRodape{
+    
+    width: 560px;
+    height: inherit;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.2em;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

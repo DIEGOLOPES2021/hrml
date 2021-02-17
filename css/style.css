@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    pedding:0px;
+    box-sizing: border-box;
+}
+/*Classe para padronização do tamanho do conteudo de cada seção*/
+.conteudo{
+    width: 1200px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+   
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+
+}
+h1, h2{
+    width: 98%;
+    height: 50px;
+    font-family: verdana;
+    font-size: 1.3em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    
+}
+
+h2{
+    height: 40px;
+    font-size: 1.1em;
+    color: brown;
+}
+p{
+     width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica */
+    height: auto;
+    /*ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+
+    font-family: verdana;
+    font-size: 1.4em;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: black;
+    background-image: url(../imagens/imagemFundo2.jpeg);
+    
+}
+/*Cabeçario */
+#containerCabecario{
+    width:inherit;
+    height: 170px;;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+    /*permite ajustar o tamanho da imagem de fundo 
+    contain= ajusta a imagem do seu tamanho origunal
+    cover= aplica o zoom na imagem fazendo com que ela ocupe todo os espaços*/
+    background-size: contain;
+    background-size: cover;
+    
+    /* posiciona a imagem de fundo*/
+    background-position: right top;
+    
+    /* permite fixar a imagem de fundo, fazendo um efeto 3D na rolagem da pagina */
+    background-attachment: fixed;
+}
+/*Imagem da Empresa */
+
+#containerMenu{
+    width: 100%;
+    height: 63px;
+    background-color:#2b5394;
+}
+
+#menu{
+    width: 1200px;
+    height: 63px;
+    background-color:#2b5394;
+    float: left;
+    
+
+}
+/***********************/
+#logo{
+    width: 200px;
+    height: 170px;
+    background-color: brown;
+    float:left;
+    background-image: url(../imagen/empresa.jpg);
+    background-size: 185px;
+    
+}
+#titulo{
+    
+    width: 940px;
+    height: 170px;
+    background-color:burlywood; 
+    float:left;
+    background-image: url(../imagen/imagem2.jfif);
+    background-size: 95%;
+}
+.redesSociais{
+    width: inherit;
+    height: 56px;
+    background-color: black;
+    
+}
+.redesSociaiss{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+}
+.redesSociaisss{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+}
+#imagemInstagram{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/instagram.webp);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#imagemFace{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/face.webp);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#imagemZap{
+    width: inherit;
+    height: 57px;
+    background-color: black;
+    background-image: url(../imagen/zap.png);
+    background-size: 60px 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/***************************/
+#listMenu{
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuItem{
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: inherit;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.menuItem:hover{
+    background-color: chartreuse;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+#containerConteudos{
+    width: 1200px;
+    height: 950px;
+    background-color: chartreuse;
+}
+#tituloss{
+    width: 1200px;
+    height: 110px;
+    background-color: black;
+    padding-top: 15px;
+}
+#ttitulos{
+    width: 1200px;
+    height: 110px;
+    background-color: black;
+    padding-top: 15px;
+}
+#texto{
+    width: 1200px;
+    height: 260px;
+    background-color: #808080;
+    
+}
+#titulossss{
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    padding-top: 15px;
+
+}
+#testo{
+     width: 100%;
+    height: 270px;
+    background-color: #808080;
+
+}
+#titulosss{
+    width: 1200px;;
+    height: 110px;
+    background-color: black;
+    padding-top: 15px;
+
+}
+#tipoDeCursos{
+    width: 1200px;
+    height: 162px;
+    background-color: #1C1C1C;
+}
+#containerImagens{
+    width: inherit;
+    height: 400px;
+    background-color: cornflowerblue;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: 1750px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#imagem{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 100px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px #000000;
+    margin-top: 40px;
+    background-image: url(../imagens/html2.jpg);
+    background-size: 310px;
+}
+#imagemDois{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 150px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px #000000;
+    margin-top: 40px;
+    background-image: url(../imagens/sop.jpg);
+    background-size: 384px;
+}
+
+#ul{
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+.li{
+    
+   
+    width: 1158px;
+    height: 50px;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.4em;
+    padding-top: 10px;
+    /*text-transform: uppercase;   DEIXA TUDO EM MAIUSCULO */
+
+}
+#rodape{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+#listMenuu{
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: black;
+}
+.listRodape{
+    
+    width: 560px;
+    height: inherit;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 1.2em;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
